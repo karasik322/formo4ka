@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.body {
+  border: 3px solid black;
+  margin: 3% auto;
+  height: 820px;
+  width: 500px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.input, select {
+  border: 1px solid black;
+  display: block;
+  margin: 0 auto;
+  width: 86%;
+  border-radius: 5px;
+  height: 4%;
+  margin-bottom: 3%;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.selectors {
+  margin-bottom: 20px;
+}
+
+.text {
+  margin: 0 7%;
+  margin-bottom: 5px;
+}
+
+.radio-box {
+  margin-top: 10px;
+}
+
+.asd {
+  margin-bottom: 10px;
+}
+
+.textarea {
+  border: 1px solid black;
+  margin: 0 auto;
+  display: block;
+  font-size: 18px;
+  resize: none;
+}
+
+button:hover {
+  background-color: #dbdbdb;
+}
+
+button.input {
+  width: 70%;
+}
+/*# sourceMappingURL=style.css.map */
